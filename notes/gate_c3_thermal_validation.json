@@ -1,0 +1,49 @@
+{
+  "gate": "C3",
+  "status": "PASSED",
+  "thermal_source": "Landsat 8/9 Collection 2 Level-2 Surface Temperature",
+  "planning_scale_m": 500,
+  "moderate": {
+    "core_dates": [
+      "2025-01-19",
+      "2025-02-04",
+      "2025-02-28",
+      "2025-03-24",
+      "2025-04-25"
+    ],
+    "pair_count": 10,
+    "mean_spearman": 0.6755792471081524,
+    "median_spearman": 0.6640188856124821,
+    "min_spearman": 0.16217990904726723,
+    "mean_pearson": 0.7449371299127945,
+    "median_pearson": 0.7569549766508545,
+    "mean_hot_quartile_jaccard": 0.39756074230431476,
+    "partial_validation_spearman": {
+      "2025-04-09": 0.9358295427555202,
+      "2025-04-17": 0.8417391304347825
+    },
+    "leave_one_out_spearman": {
+      "2025-01-19": 0.6737622468766852,
+      "2025-02-04": 0.9315617531219569,
+      "2025-02-28": 0.9052176727105395,
+      "2025-03-24": 0.8882527126045173,
+      "2025-04-25": 0.6260022214940406
+    }
+  },
+  "guarded": {
+    "core_dates": [
+      "2025-01-19",
+      "2025-02-04",
+      "2025-02-28",
+      "2025-03-24"
+    ],
+    "pair_count": 6,
+    "mean_spearman": 0.7814982167241932,
+    "median_spearman": 0.7929699508101992,
+    "min_spearman": 0.5766519533566111,
+    "mean_pearson": 0.8035640291281613,
+    "median_pearson": 0.807440659256548,
+    "mean_hot_quartile_jaccard": 0.497314553351705
+  },
+  "decision": "Landsat daytime thermal consensus promoted to core planning evidence; ECOSTRESS context-only."
+}

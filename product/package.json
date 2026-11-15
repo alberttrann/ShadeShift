@@ -1,0 +1,28 @@
+{
+  "name": "shadeshift-product",
+  "private": true,
+  "version": "2.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "preflight:data": "node scripts/preflight-data.mjs",
+    "build:contracts": "npm run build -w @shadeshift/contracts",
+    "dev": "npm run preflight:data && npm run sync:web-env && npm run build:contracts && concurrently -n API,WEB -c auto \"npm run start:dev -w @shadeshift/api\" \"npm run dev -w @shadeshift/web\"",
+    "build": "npm run preflight:data && npm run sync:web-env && npm run build -w @shadeshift/contracts && npm run build -w @shadeshift/api && npm run build -w @shadeshift/web",
+    "start:api": "npm run start:prod -w @shadeshift/api",
+    "start:web": "npm run start -w @shadeshift/web",
+    "sync:web-env": "node scripts/sync-web-env.mjs",
+    "prepare:classifier-layers": "python scripts/export_classifier_product_layers.py",
+    "verify:classifier-context": "python scripts/verify_classifier_product_context.py",
+    "repair:classifier-context": "powershell -ExecutionPolicy Bypass -File .\\repair_v0_4_1.ps1",
+    "verify:v1-product": "python scripts/verify_v1_product.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,86 @@
+# -----------------------------------------------------------------------------
+# ShadeShift — repository hygiene
+# -----------------------------------------------------------------------------
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.local.example
+*.pem
+*.key
+*.p12
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Node / Next / Nest
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+**/dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend local env generated from product/.env
+product/apps/web/.env.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw / intermediate geospatial data
+data/
+outputs/
+audits/
+logs/
+tmp/
+temp/
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.mbtiles
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# Earth Engine / download scratch
+downloads/
+earth_engine_exports/
+ee_exports/
+
+# Local experimental artifacts
+product/STATIC_CHECKS*.json
+product/*PATCH*.ps1
+product/patch_*.ps1
+product/repair_v*.ps1
+product/install_into_shadeshift.ps1
+product/APPLY_D2_PATCH.ps1
+
+# Historical product-development notes — keep local unless intentionally moved
+# into docs/archive/
+product/UX_FREEZE.md
+product/STORY_UX.md
+product/V2_*.md
+product/JUDGE_FIRST_UX.md
+product/CELL_STORY_REFINEMENT.md
+
+# Keep small product-ready artifacts under public/data.
+# If a large file is added there, the pre-push script will flag it.

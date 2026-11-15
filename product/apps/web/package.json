@@ -1,0 +1,24 @@
+{
+  "name": "@shadeshift/web",
+  "version": "0.2.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@shadeshift/contracts": "file:../../packages/contracts",
+    "maplibre-gl": "^6.18.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "@types/geojson": "^7946.0.16"
+  }
+}

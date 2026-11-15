@@ -1,0 +1,35 @@
+{
+  "version": "Gate-C4-v3-spatial-fix",
+  "grid_m": 500,
+  "landcover": {
+    "min_known_fraction": 0.6,
+    "min_terrestrial_share": 0.5,
+    "min_footprint_overlap_fraction": 0.5
+  },
+  "thermal": {
+    "moderate_core_scene_names": [
+      "jan19",
+      "feb04",
+      "feb28",
+      "mar24",
+      "apr25"
+    ],
+    "guarded_core_scene_names": [
+      "jan19",
+      "feb04",
+      "feb28",
+      "mar24"
+    ],
+    "min_cell_scene_coverage": 0.5,
+    "min_moderate_scene_count": 3,
+    "hot_percentile_threshold": 0.75,
+    "consensus": "median of per-scene within-AOI percentile ranks",
+    "guarded_role": "corroboration / QA-tier robustness, not a separate weighted heat term"
+  },
+  "priority": {
+    "heat_weight": 0.6,
+    "greening_need_weight": 0.4,
+    "historical_change_in_core_score": false,
+    "note": "Weights are transparent planning heuristics and are sensitivity-audited."
+  }
+}
