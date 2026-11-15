@@ -1,0 +1,28 @@
+{
+  "landcover_ontology_version": "ShadeShift-v2-3class",
+  "classes": {
+    "0": {
+      "name": "unknown",
+      "description": "Low-confidence or unsupported surface class"
+    },
+    "1": {
+      "name": "vegetation",
+      "description": "Vegetated surfaces"
+    },
+    "2": {
+      "name": "built",
+      "description": "Built-up / impervious urban surfaces"
+    },
+    "4": {
+      "name": "water",
+      "description": "Open water"
+    },
+    "255": {
+      "name": "nodata",
+      "description": "No usable embedding data"
+    }
+  },
+  "retired": {
+    "3": "bare_other"
+  }
+}

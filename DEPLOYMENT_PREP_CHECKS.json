@@ -1,0 +1,9 @@
+{
+  "root_data_ignore_is_anchored": true,
+  "api_binds_0_0_0_0": true,
+  "api_healthcheck": true,
+  "web_uses_railway_port": true,
+  "prep_requires_enhanced_geojson": true,
+  "prep_verifies_51_eligible": true,
+  "prep_verifies_classifier_global": true
+}

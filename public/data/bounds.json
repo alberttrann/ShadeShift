@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "ShadeShift HCMC pilot AOI",
+  "bbox_wgs84": [106.715, 10.785, 106.755, 10.815],
+  "raster_crs_expected": "OlmoEarth zone attribute; expected UTM zone 48N",
+  "landcover_years": [2017, 2025],
+  "landcover_native_resolution_m": 10,
+  "nasa_preferred_dataset": "NASA/ECOSTRESS/L2T_LSTE/V2",
+  "nasa_lst_native_resolution_m": 70,
+  "nasa_backup_dataset": "MODIS/061/MOD11A2",
+  "nasa_backup_native_resolution_m": 1000,
+  "planning_grid_m": 500,
+  "is_mock": true
+}

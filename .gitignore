@@ -43,13 +43,15 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Raw / intermediate geospatial data
-data/
-outputs/
-audits/
-logs/
-tmp/
-temp/
+# Root science workspace only.
+# IMPORTANT: keep these root-anchored so product/**/data can be committed.
+#/ raw/intermediate geospatial data
+/data/
+/outputs/
+/audits/
+/logs/
+/tmp/
+/temp/
 *.tif
 *.tiff
 *.vrt
@@ -62,9 +64,9 @@ temp/
 *.ckpt
 
 # Earth Engine / download scratch
-downloads/
-earth_engine_exports/
-ee_exports/
+/downloads/
+/earth_engine_exports/
+/ee_exports/
 
 # Local experimental artifacts
 product/STATIC_CHECKS*.json
@@ -82,5 +84,14 @@ product/V2_*.md
 product/JUDGE_FIRST_UX.md
 product/CELL_STORY_REFINEMENT.md
 
-# Keep small product-ready artifacts under public/data.
-# If a large file is added there, the pre-push script will flag it.
+# ---------------------------------------------------------------------------
+# DEPLOYMENT ARTIFACTS — intentionally tracked
+# ---------------------------------------------------------------------------
+# The deployed API needs only the small frozen final GeoJSON/JSON artifacts.
+!product/apps/api/data/
+!product/apps/api/data/**
+
+# The web product needs the small derived classifier PNG/JSON visualization
+# assets. These are explanatory layers, not raw source rasters.
+!product/apps/web/public/
+!product/apps/web/public/**

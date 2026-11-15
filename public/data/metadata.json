@@ -1,0 +1,41 @@
+{
+  "project": "ShadeShift HCMC",
+  "gate": "A",
+  "schema_version": "1.0",
+  "aoi": {
+    "bbox_wgs84": [106.715, 10.785, 106.755, 10.815],
+    "approx_width_km": 4.37,
+    "approx_height_km": 3.34,
+    "approx_area_km2": 14.6,
+    "utm_zone": 48,
+    "latitude_band": "P"
+  },
+  "olmoearth": {
+    "dataset": "OlmoEarth v1.3 global annual embeddings",
+    "years_requested": [2017, 2025],
+    "bands": 64,
+    "native_resolution_m": 10,
+    "source_store": "s3://olmoearth/olmoearth-v1-3-embeddings/embeddings.zarr",
+    "endpoint": "https://data.source.coop",
+    "dequantization": "q=-128 -> NaN; otherwise (abs(q)/127.5)^2 * sign(q)",
+    "status": "pending_actual_export"
+  },
+  "nasa": {
+    "preferred": {
+      "collection": "NASA/ECOSTRESS/L2T_LSTE/V2",
+      "resolution_m": 70,
+      "candidate_window": ["2025-02-01", "2025-05-01"],
+      "status": "pending_AOI_runtime_query"
+    },
+    "fallback": {
+      "collection": "MODIS/061/MOD11A2",
+      "resolution_m": 1000,
+      "status": "pending_AOI_runtime_query"
+    }
+  },
+  "frontend_contract": {
+    "frozen": true,
+    "is_mock": true,
+    "rule": "is_mock becomes false only after real raster QA and NASA coverage checks pass"
+  }
+}

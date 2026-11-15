@@ -1,0 +1,17 @@
+{
+  "artifact": "public/data/planning_cells.geojson",
+  "priority_semantics": "Relative investigation priority within the frozen pilot AOI; not a calibrated heat-risk probability.",
+  "fields": {
+    "priority_rank": "1 = investigate first among eligible cells",
+    "priority_core": "transparent 0.60*heat_score + 0.40*greening_need heuristic",
+    "heat_score": "median percentile rank across validated Landsat daytime dates",
+    "greening_need": "built fraction among reliable terrestrial built+vegetation pixels",
+    "heat_scene_count": "number of moderate core dates supporting this cell",
+    "hot_recurrence": "fraction of supported dates where cell is in hottest quartile",
+    "heat_rank_iqr": "temporal dispersion of heat percentile rank",
+    "guarded_heat_score": "stricter-QA thermal consensus",
+    "qa_tier_heat_gap": "absolute moderate-vs-guarded consensus difference",
+    "historical_v2b_fraction_joint_reliable": "supporting evidence only",
+    "evidence_reason": "human-readable rationale"
+  }
+}

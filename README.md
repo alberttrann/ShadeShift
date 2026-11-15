@@ -559,27 +559,6 @@ That is all.
 
 ---
 
-## Recommended demo path
-
-For a short judging session:
-
-1. **Project story** — explain why this is a small local experiment.
-2. **C025** — show a strong heat + greening overlap case.
-3. Switch **Heat ↔ Greening** — show that the two spatial signals are not identical.
-4. Open **Surface layers → 10 m land cover**.
-5. Show **2017→2025 vegetation→built** as support-only context.
-6. Select a greening-led or heat-led cell and compare its interpretation.
-7. Open **Evidence** — show that uncertainty is visible rather than hidden.
-8. Open **Method** — show the rejected ECOSTRESS path and the spatial-fix correction.
-
-The important message is not “we made a heat map.”
-
-It is:
-
-> **we tested which evidence deserved to become a planning signal, corrected the evidence when it failed, and kept those decisions visible in the final product.**
-
----
-
 ## Tech stack
 
 **Science / geospatial**
@@ -638,13 +617,3 @@ ShadeShift uses Earth-observation data and derived products from:
 - OlmoEarth embeddings.
 
 The project was built for the **NASA International Space Apps Challenge 2026**.
-
----
-
-## Current status
-
-**Science:** Gate C / C4-v3 spatial fix passed; C4.1 evidence-caveat audit complete.  
-**Product:** read-only evidence API + interactive map product functional.  
-**Scope:** local Thủ Đức pilot only.
-
-The next step is not to pretend this pilot is citywide. It is to test whether the same validation discipline survives a larger and more diverse study area.
