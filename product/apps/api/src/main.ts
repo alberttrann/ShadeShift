@@ -7,8 +7,16 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.setGlobalPrefix("api/v1");
+
+  const allowedOrigins = (
+    process.env.WEB_ORIGIN ?? "http://localhost:3000"
+  )
+    .split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+
   app.enableCors({
-    origin: process.env.WEB_ORIGIN ?? "http://localhost:3000",
+    origin: allowedOrigins,
     methods: ["GET"],
   });
 
@@ -17,17 +25,20 @@ async function bootstrap() {
     .setDescription(
       "Read-only API over frozen ShadeShift planning evidence artifacts.",
     )
-    .setVersion("0.1.0")
+    .setVersion("1.0.0")
     .build();
 
   const document = SwaggerModule.createDocument(app, swaggerConfig);
   SwaggerModule.setup("docs", app, document);
 
   const port = Number(process.env.PORT ?? 4000);
-  await app.listen(port);
 
-  console.log(`ShadeShift API: http://localhost:${port}/api/v1`);
-  console.log(`Swagger:        http://localhost:${port}/docs`);
+  // Railway expects services to listen on its injected PORT and 0.0.0.0.
+  await app.listen(port, "0.0.0.0");
+
+  console.log(`ShadeShift API listening on 0.0.0.0:${port}`);
+  console.log(`Health:  /api/v1/health`);
+  console.log(`Swagger: /docs`);
 }
 
 bootstrap();

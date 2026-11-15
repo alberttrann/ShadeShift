@@ -1,0 +1,14 @@
+# ShadeShift API service
+# Railway service settings:
+#   Root Directory: /product
+#   Config File:    /product/railway.api.toml
+
+[build]
+builder = "railpack"
+buildCommand = "npm ci && npm run build:contracts && npm run build -w @shadeshift/api"
+
+[deploy]
+startCommand = "npm run start:api"
+healthcheckPath = "/api/v1/health"
+healthcheckTimeout = 120
+restartPolicyType = "on_failure"

@@ -4,6 +4,7 @@
     "module": "CommonJS",
     "outDir": "dist",
     "rootDir": "src",
+    "types": ["node"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "sourceMap": true

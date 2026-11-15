@@ -1,0 +1,15 @@
+# ShadeShift web service
+# Railway service settings:
+#   Root Directory: /product
+#   Config File:    /product/railway.web.toml
+
+[build]
+builder = "railpack"
+buildCommand = "npm ci && npm run build:contracts && npm run build -w @shadeshift/web"
+
+[deploy]
+# Railway injects PORT. Railpack start commands run in a shell, so $PORT expands.
+startCommand = "npm run start -w @shadeshift/web -- --hostname 0.0.0.0 --port $PORT"
+healthcheckPath = "/"
+healthcheckTimeout = 180
+restartPolicyType = "on_failure"

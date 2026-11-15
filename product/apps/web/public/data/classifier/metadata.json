@@ -1,0 +1,1630 @@
+{
+  "version": "classifier-context-v2-global-plus-cell",
+  "eligible_cell_count": 51,
+  "source": {
+    "landcover": {
+      "path": "D:\\shadeshift_gate_a\\outputs\\reliable_landcover_2025.tif",
+      "sha256": "3353406f1844f7b1ceea66dd5050e6bcfe85009d17d5d1b3142a75c102534dc6"
+    },
+    "change": {
+      "path": "D:\\shadeshift_gate_a\\outputs\\reliable_change_code_2017_2025.tif",
+      "sha256": "4c844d746af1d01eafbd9bc6934431c62e0ea1449cdbf59c868e8a1d9048043f"
+    },
+    "planning_cells": {
+      "path": "D:\\shadeshift_gate_a\\public\\data\\planning_cells_evidence_enhanced.geojson",
+      "sha256": "b382a0e0fc41b8eaa4e1f05a31e274a7bb848d844f6be27e9ab69602e68d284a"
+    }
+  },
+  "global": {
+    "coordinates": [
+      [
+        106.71495349339945,
+        10.815265428559558
+      ],
+      [
+        106.7551869203252,
+        10.815039341346017
+      ],
+      [
+        106.75501105013979,
+        10.784755828570388
+      ],
+      [
+        106.71478164974141,
+        10.784981268071482
+      ]
+    ],
+    "width": 440,
+    "height": 335,
+    "landcover_url": "/data/classifier/global_landcover_2025.png",
+    "veg_to_built_url": "/data/classifier/global_veg_to_built_2017_2025.png"
+  },
+  "cells": {
+    "C003": {
+      "coordinates": [
+        [
+          106.72393867817905,
+          10.787371293781725
+        ],
+        [
+          106.72869312270167,
+          10.787344776620293
+        ],
+        [
+          106.72867917957153,
+          10.784903979289078
+        ],
+        [
+          106.7239247733505,
+          10.784930490312048
+        ]
+      ],
+      "width": 52,
+      "height": 27,
+      "landcover_url": "/data/classifier/cells/C003_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C003_veg_to_built.png",
+      "counts": {
+        "vegetation": 779,
+        "built": 413,
+        "water": 0,
+        "unknown_or_masked": 212,
+        "veg_to_built": 63
+      }
+    },
+    "C004": {
+      "coordinates": [
+        [
+          106.72851025967987,
+          10.787345797859949
+        ],
+        [
+          106.73326469228107,
+          10.787319210559668
+        ],
+        [
+          106.73325071232293,
+          10.784878419146743
+        ],
+        [
+          106.72849631802285,
+          10.784905000292326
+        ]
+      ],
+      "width": 52,
+      "height": 27,
+      "landcover_url": "/data/classifier/cells/C004_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C004_veg_to_built.png",
+      "counts": {
+        "vegetation": 315,
+        "built": 846,
+        "water": 0,
+        "unknown_or_masked": 243,
+        "veg_to_built": 84
+      }
+    },
+    "C005": {
+      "coordinates": [
+        [
+          106.73317326100202,
+          10.7873197225418
+        ],
+        [
+          106.7378362503667,
+          10.787293577058662
+        ],
+        [
+          106.73782223358101,
+          10.784852791579635
+        ],
+        [
+          106.73315928178044,
+          10.784878931010354
+        ]
+      ],
+      "width": 51,
+      "height": 27,
+      "landcover_url": "/data/classifier/cells/C005_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C005_veg_to_built.png",
+      "counts": {
+        "vegetation": 294,
+        "built": 543,
+        "water": 0,
+        "unknown_or_masked": 540,
+        "veg_to_built": 51
+      }
+    },
+    "C006": {
+      "coordinates": [
+        [
+          106.73765390741451,
+          10.787385003156816
+        ],
+        [
+          106.74231688665176,
+          10.78735879003632
+        ],
+        [
+          106.74230231323392,
+          10.784827611149137
+        ],
+        [
+          106.73763937295173,
+          10.784853817976865
+        ]
+      ],
+      "width": 51,
+      "height": 28,
+      "landcover_url": "/data/classifier/cells/C006_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C006_veg_to_built.png",
+      "counts": {
+        "vegetation": 829,
+        "built": 267,
+        "water": 2,
+        "unknown_or_masked": 330,
+        "veg_to_built": 27
+      }
+    },
+    "C007": {
+      "coordinates": [
+        [
+          106.74222545580176,
+          10.78735930469347
+        ],
+        [
+          106.74697985386852,
+          10.78733250675191
+        ],
+        [
+          106.7469652414961,
+          10.784801334174336
+        ],
+        [
+          106.74221088314773,
+          10.784828125682738
+        ]
+      ],
+      "width": 52,
+      "height": 28,
+      "landcover_url": "/data/classifier/cells/C007_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C007_veg_to_built.png",
+      "counts": {
+        "vegetation": 782,
+        "built": 253,
+        "water": 0,
+        "unknown_or_masked": 421,
+        "veg_to_built": 56
+      }
+    },
+    "C008": {
+      "coordinates": [
+        [
+          106.74679647075745,
+          10.78724313976872
+        ],
+        [
+          106.75155085535819,
+          10.787216271921421
+        ],
+        [
+          106.75153672809257,
+          10.784775504337755
+        ],
+        [
+          106.74678238179109,
+          10.784802365965419
+        ]
+      ],
+      "width": 52,
+      "height": 27,
+      "landcover_url": "/data/classifier/cells/C008_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C008_veg_to_built.png",
+      "counts": {
+        "vegetation": 344,
+        "built": 602,
+        "water": 0,
+        "unknown_or_masked": 458,
+        "veg_to_built": 109
+      }
+    },
+    "C011": {
+      "coordinates": [
+        [
+          106.71482110294615,
+          10.791942110436066
+        ],
+        [
+          106.71957564217196,
+          10.791915722247191
+        ],
+        [
+          106.71954994918268,
+          10.787395706417191
+        ],
+        [
+          106.7147954809117,
+          10.78742208329843
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C011_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C011_veg_to_built.png",
+      "counts": {
+        "vegetation": 77,
+        "built": 2051,
+        "water": 9,
+        "unknown_or_masked": 463,
+        "veg_to_built": 13
+      }
+    },
+    "C012": {
+      "coordinates": [
+        [
+          106.71948420884152,
+          10.791916230400576
+        ],
+        [
+          106.72414730287302,
+          10.791890280167518
+        ],
+        [
+          106.72412154165879,
+          10.787370275239736
+        ],
+        [
+          106.71945851721675,
+          10.787396214352828
+        ]
+      ],
+      "width": 51,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C012_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C012_veg_to_built.png",
+      "counts": {
+        "vegetation": 223,
+        "built": 938,
+        "water": 855,
+        "unknown_or_masked": 534,
+        "veg_to_built": 7
+      }
+    },
+    "C013": {
+      "coordinates": [
+        [
+          106.72396443666432,
+          10.79189129914615
+        ],
+        [
+          106.72862751926695,
+          10.791865281469171
+        ],
+        [
+          106.7286011747485,
+          10.787254887355243
+        ],
+        [
+          106.72393816312596,
+          10.787280893660384
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C013_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C013_veg_to_built.png",
+      "counts": {
+        "vegetation": 394,
+        "built": 971,
+        "water": 854,
+        "unknown_or_masked": 382,
+        "veg_to_built": 107
+      }
+    },
+    "C014": {
+      "coordinates": [
+        [
+          106.72853608638927,
+          10.791865792294402
+        ],
+        [
+          106.73319915729924,
+          10.791839705797901
+        ],
+        [
+          106.73317274319331,
+          10.787229322862618
+        ],
+        [
+          106.72850974326259,
+          10.7872553979572
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C014_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C014_veg_to_built.png",
+      "counts": {
+        "vegetation": 293,
+        "built": 2061,
+        "water": 0,
+        "unknown_or_masked": 247,
+        "veg_to_built": 61
+      }
+    },
+    "C015": {
+      "coordinates": [
+        [
+          106.73319915729924,
+          10.791839705797901
+        ],
+        [
+          106.73786221625083,
+          10.791813549106337
+        ],
+        [
+          106.73783573116656,
+          10.787203177603647
+        ],
+        [
+          106.73317274319331,
+          10.787229322862618
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C015_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C015_veg_to_built.png",
+      "counts": {
+        "vegetation": 232,
+        "built": 1660,
+        "water": 0,
+        "unknown_or_masked": 709,
+        "veg_to_built": 158
+      }
+    },
+    "C016": {
+      "coordinates": [
+        [
+          106.73767935141959,
+          10.791814576181334
+        ],
+        [
+          106.74234239885152,
+          10.791788352048252
+        ],
+        [
+          106.74231584557319,
+          10.787177991558718
+        ],
+        [
+          106.73765286911876,
+          10.787204204229727
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C016_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C016_veg_to_built.png",
+      "counts": {
+        "vegetation": 974,
+        "built": 769,
+        "water": 6,
+        "unknown_or_masked": 852,
+        "veg_to_built": 71
+      }
+    },
+    "C017": {
+      "coordinates": [
+        [
+          106.74225096666437,
+          10.791788866921621
+        ],
+        [
+          106.7470054342621,
+          10.791762057721787
+        ],
+        [
+          106.74697933193552,
+          10.78724210773873
+        ],
+        [
+          106.74222493528745,
+          10.787268905450533
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C017_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C017_veg_to_built.png",
+      "counts": {
+        "vegetation": 595,
+        "built": 1470,
+        "water": 0,
+        "unknown_or_masked": 535,
+        "veg_to_built": 113
+      }
+    },
+    "C018": {
+      "coordinates": [
+        [
+          106.74682257035522,
+          10.791763090194197
+        ],
+        [
+          106.75148559418561,
+          10.791736728427832
+        ],
+        [
+          106.75145890173829,
+          10.787126390501996
+        ],
+        [
+          106.74679594888366,
+          10.78715274074614
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C018_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C018_veg_to_built.png",
+      "counts": {
+        "vegetation": 488,
+        "built": 1282,
+        "water": 270,
+        "unknown_or_masked": 561,
+        "veg_to_built": 65
+      }
+    },
+    "C019": {
+      "coordinates": [
+        [
+          106.75139416246185,
+          10.791737245999878
+        ],
+        [
+          106.75505142778617,
+          10.791716522068795
+        ],
+        [
+          106.75502468106386,
+          10.78710619297477
+        ],
+        [
+          106.7513674714062,
+          10.78712690784782
+        ]
+      ],
+      "width": 40,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C019_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C019_veg_to_built.png",
+      "counts": {
+        "vegetation": 200,
+        "built": 1448,
+        "water": 100,
+        "unknown_or_masked": 292,
+        "veg_to_built": 26
+      }
+    },
+    "C021": {
+      "coordinates": [
+        [
+          106.71484724913704,
+          10.796552536697208
+        ],
+        [
+          106.71960186076919,
+          10.796526136974208
+        ],
+        [
+          106.71957564217196,
+          10.791915722247191
+        ],
+        [
+          106.71482110294615,
+          10.791942110436066
+        ]
+      ],
+      "width": 52,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C021_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C021_veg_to_built.png",
+      "counts": {
+        "vegetation": 135,
+        "built": 2181,
+        "water": 0,
+        "unknown_or_masked": 336,
+        "veg_to_built": 31
+      }
+    },
+    "C022": {
+      "coordinates": [
+        [
+          106.71951042604633,
+          10.796526645349704
+        ],
+        [
+          106.72417359109092,
+          10.796500683773953
+        ],
+        [
+          106.7241467875367,
+          10.791799880082467
+        ],
+        [
+          106.71948369489728,
+          10.79182583009312
+        ]
+      ],
+      "width": 51,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C022_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C022_veg_to_built.png",
+      "counts": {
+        "vegetation": 165,
+        "built": 1728,
+        "water": 0,
+        "unknown_or_masked": 759,
+        "veg_to_built": 6
+      }
+    },
+    "C024": {
+      "coordinates": [
+        [
+          106.72856192456182,
+          10.796385785350285
+        ],
+        [
+          106.73322506509044,
+          10.79635968767511
+        ],
+        [
+          106.73319863926065,
+          10.791749306146292
+        ],
+        [
+          106.72853556974276,
+          10.79177539241922
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C024_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C024_veg_to_built.png",
+      "counts": {
+        "vegetation": 96,
+        "built": 2303,
+        "water": 0,
+        "unknown_or_masked": 202,
+        "veg_to_built": 55
+      }
+    },
+    "C025": {
+      "coordinates": [
+        [
+          106.73313363107728,
+          10.796360200069218
+        ],
+        [
+          106.73788819365986,
+          10.796333519774793
+        ],
+        [
+          106.7378616968202,
+          10.791723149678896
+        ],
+        [
+          106.73310720663984,
+          10.791749818316532
+        ]
+      ],
+      "width": 52,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C025_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C025_veg_to_built.png",
+      "counts": {
+        "vegetation": 64,
+        "built": 2300,
+        "water": 0,
+        "unknown_or_masked": 288,
+        "veg_to_built": 131
+      }
+    },
+    "C026": {
+      "coordinates": [
+        [
+          106.73770532609852,
+          10.796334547289918
+        ],
+        [
+          106.74236844314743,
+          10.796308311919187
+        ],
+        [
+          106.74234187808347,
+          10.791697952836763
+        ],
+        [
+          106.73767883204356,
+          10.791724176745092
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C026_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C026_veg_to_built.png",
+      "counts": {
+        "vegetation": 425,
+        "built": 1500,
+        "water": 0,
+        "unknown_or_masked": 676,
+        "veg_to_built": 122
+      }
+    },
+    "C027": {
+      "coordinates": [
+        [
+          106.74227700959524,
+          10.796308827013188
+        ],
+        [
+          106.74703154817412,
+          10.796282006324992
+        ],
+        [
+          106.74700491210204,
+          10.791671658735645
+        ],
+        [
+          106.74225044592362,
+          10.791698467705716
+        ]
+      ],
+      "width": 52,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C027_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C027_veg_to_built.png",
+      "counts": {
+        "vegetation": 361,
+        "built": 1805,
+        "water": 0,
+        "unknown_or_masked": 486,
+        "veg_to_built": 144
+      }
+    },
+    "C028": {
+      "coordinates": [
+        [
+          106.74684920387901,
+          10.796373438206679
+        ],
+        [
+          106.75160373182871,
+          10.796346547092481
+        ],
+        [
+          106.75157650237998,
+          10.79164581206418
+        ],
+        [
+          106.74682204824974,
+          10.791672691199208
+        ]
+      ],
+      "width": 52,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C028_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C028_veg_to_built.png",
+      "counts": {
+        "vegetation": 1163,
+        "built": 706,
+        "water": 0,
+        "unknown_or_masked": 835,
+        "veg_to_built": 37
+      }
+    },
+    "C029": {
+      "coordinates": [
+        [
+          106.75142086560123,
+          10.796347582716022
+        ],
+        [
+          106.7550781866174,
+          10.796326849726645
+        ],
+        [
+          106.75505090322424,
+          10.791626123472911
+        ],
+        [
+          106.75139363899169,
+          10.79164684722638
+        ]
+      ],
+      "width": 40,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C029_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C029_veg_to_built.png",
+      "counts": {
+        "vegetation": 532,
+        "built": 1071,
+        "water": 0,
+        "unknown_or_masked": 477,
+        "veg_to_built": 160
+      }
+    },
+    "C031": {
+      "coordinates": [
+        [
+          106.71487238113274,
+          10.80098216057787
+        ],
+        [
+          106.71962706236265,
+          10.800955749772747
+        ],
+        [
+          106.71960134656501,
+          10.79643573669923
+        ],
+        [
+          106.7148467363529,
+          10.796462136196062
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C031_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C031_veg_to_built.png",
+      "counts": {
+        "vegetation": 191,
+        "built": 1791,
+        "water": 145,
+        "unknown_or_masked": 473,
+        "veg_to_built": 7
+      }
+    },
+    "C032": {
+      "coordinates": [
+        [
+          106.7195356263014,
+          10.80095625836165
+        ],
+        [
+          106.72419885960448,
+          10.800930285887706
+        ],
+        [
+          106.72417255995629,
+          10.796319883659546
+        ],
+        [
+          106.71950939769714,
+          10.796345844790482
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C032_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C032_veg_to_built.png",
+      "counts": {
+        "vegetation": 142,
+        "built": 2110,
+        "water": 0,
+        "unknown_or_masked": 349,
+        "veg_to_built": 37
+      }
+    },
+    "C034": {
+      "coordinates": [
+        [
+          106.72867920980673,
+          10.800905265763998
+        ],
+        [
+          106.73334241975073,
+          10.800879155532268
+        ],
+        [
+          106.73331598080324,
+          10.796268775634369
+        ],
+        [
+          106.72865284190146,
+          10.796294874462925
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C034_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C034_veg_to_built.png",
+      "counts": {
+        "vegetation": 652,
+        "built": 1387,
+        "water": 19,
+        "unknown_or_masked": 543,
+        "veg_to_built": 9
+      }
+    },
+    "C035": {
+      "coordinates": [
+        [
+          106.73315954899765,
+          10.800880180786459
+        ],
+        [
+          106.73791418259458,
+          10.80085348906348
+        ],
+        [
+          106.73788767399873,
+          10.796243120374944
+        ],
+        [
+          106.73313311283611,
+          10.7962698004408
+        ]
+      ],
+      "width": 52,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C035_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C035_veg_to_built.png",
+      "counts": {
+        "vegetation": 330,
+        "built": 1767,
+        "water": 0,
+        "unknown_or_masked": 555,
+        "veg_to_built": 82
+      }
+    },
+    "C036": {
+      "coordinates": [
+        [
+          106.73773131230195,
+          10.800854517018742
+        ],
+        [
+          106.74248593391191,
+          10.800827755068385
+        ],
+        [
+          106.74245987669498,
+          10.796307796798185
+        ],
+        [
+          106.73770532609852,
+          10.796334547289918
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C036_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C036_veg_to_built.png",
+      "counts": {
+        "vegetation": 362,
+        "built": 1801,
+        "water": 0,
+        "unknown_or_masked": 437,
+        "veg_to_built": 126
+      }
+    },
+    "C037": {
+      "coordinates": [
+        [
+          106.74230306408091,
+          10.800828785724685
+        ],
+        [
+          106.7470576736724,
+          10.800801953547795
+        ],
+        [
+          106.74703154817412,
+          10.796282006324992
+        ],
+        [
+          106.74227700959524,
+          10.796308827013188
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C037_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C037_veg_to_built.png",
+      "counts": {
+        "vegetation": 617,
+        "built": 1321,
+        "water": 0,
+        "unknown_or_masked": 662,
+        "veg_to_built": 201
+      }
+    },
+    "C039": {
+      "coordinates": [
+        [
+          106.75153796739608,
+          10.800776602545158
+        ],
+        [
+          106.75510390748947,
+          10.80075637886809
+        ],
+        [
+          106.75507766181804,
+          10.796236451158927
+        ],
+        [
+          106.75151177498287,
+          10.796256666176852
+        ]
+      ],
+      "width": 39,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C039_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C039_veg_to_built.png",
+      "counts": {
+        "vegetation": 740,
+        "built": 433,
+        "water": 0,
+        "unknown_or_masked": 777,
+        "veg_to_built": 61
+      }
+    },
+    "C041": {
+      "coordinates": [
+        [
+          106.71498947494645,
+          10.80550167615246
+        ],
+        [
+          106.71965278956573,
+          10.805475761467202
+        ],
+        [
+          106.71962654793494,
+          10.800865349524791
+        ],
+        [
+          106.71496330439197,
+          10.800891252896793
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C041_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C041_veg_to_built.png",
+      "counts": {
+        "vegetation": 62,
+        "built": 2188,
+        "water": 0,
+        "unknown_or_masked": 351,
+        "veg_to_built": 22
+      }
+    },
+    "C042": {
+      "coordinates": [
+        [
+          106.71956135213813,
+          10.805476270273871
+        ],
+        [
+          106.72413321792416,
+          10.805450796836833
+        ],
+        [
+          106.7241074237716,
+          10.80093079582719
+        ],
+        [
+          106.7195356263014,
+          10.80095625836165
+        ]
+      ],
+      "width": 50,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C042_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C042_veg_to_built.png",
+      "counts": {
+        "vegetation": 56,
+        "built": 1819,
+        "water": 352,
+        "unknown_or_masked": 273,
+        "veg_to_built": 2
+      }
+    },
+    "C044": {
+      "coordinates": [
+        [
+          106.72861363529954,
+          10.805425767324106
+        ],
+        [
+          106.73336835189869,
+          10.805399134430521
+        ],
+        [
+          106.73334241975073,
+          10.800879155532268
+        ],
+        [
+          106.72858777419829,
+          10.800905777027037
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C044_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C044_veg_to_built.png",
+      "counts": {
+        "vegetation": 218,
+        "built": 2080,
+        "water": 2,
+        "unknown_or_masked": 300,
+        "veg_to_built": 17
+      }
+    },
+    "C045": {
+      "coordinates": [
+        [
+          106.73318547841306,
+          10.805400160123709
+        ],
+        [
+          106.73794018305587,
+          10.805373456971843
+        ],
+        [
+          106.73791418259458,
+          10.80085348906348
+        ],
+        [
+          106.73315954899765,
+          10.800880180786459
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C045_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C045_veg_to_built.png",
+      "counts": {
+        "vegetation": 175,
+        "built": 2146,
+        "water": 0,
+        "unknown_or_masked": 279,
+        "veg_to_built": 50
+      }
+    },
+    "C046": {
+      "coordinates": [
+        [
+          106.73775731003072,
+          10.805374485367254
+        ],
+        [
+          106.74251200268566,
+          10.805347711957944
+        ],
+        [
+          106.74248593391191,
+          10.800827755068385
+        ],
+        [
+          106.73773131230195,
+          10.800854517018742
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C046_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C046_veg_to_built.png",
+      "counts": {
+        "vegetation": 417,
+        "built": 1495,
+        "water": 0,
+        "unknown_or_masked": 688,
+        "veg_to_built": 63
+      }
+    },
+    "C047": {
+      "coordinates": [
+        [
+          106.74242056640624,
+          10.805348227520259
+        ],
+        [
+          106.7470838107578,
+          10.80532189938964
+        ],
+        [
+          106.7470576736724,
+          10.800801953547795
+        ],
+        [
+          106.74239449899872,
+          10.800828270410038
+        ]
+      ],
+      "width": 51,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C047_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C047_veg_to_built.png",
+      "counts": {
+        "vegetation": 317,
+        "built": 1581,
+        "water": 0,
+        "unknown_or_masked": 652,
+        "veg_to_built": 114
+      }
+    },
+    "C048": {
+      "coordinates": [
+        [
+          106.74699237470982,
+          10.805322416303033
+        ],
+        [
+          106.75165560724197,
+          10.805296019267738
+        ],
+        [
+          106.75162940184579,
+          10.800776084502514
+        ],
+        [
+          106.74696623899065,
+          10.800802470239951
+        ]
+      ],
+      "width": 51,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C048_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C048_veg_to_built.png",
+      "counts": {
+        "vegetation": 461,
+        "built": 1245,
+        "water": 0,
+        "unknown_or_masked": 844,
+        "veg_to_built": 70
+      }
+    },
+    "C049": {
+      "coordinates": [
+        [
+          106.75156417142605,
+          10.805296537532197
+        ],
+        [
+          106.7551301648013,
+          10.805276305195745
+        ],
+        [
+          106.75510338246197,
+          10.800665980327446
+        ],
+        [
+          106.75153744343396,
+          10.800686203831328
+        ]
+      ],
+      "width": 39,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C049_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C049_veg_to_built.png",
+      "counts": {
+        "vegetation": 759,
+        "built": 566,
+        "water": 0,
+        "unknown_or_masked": 664,
+        "veg_to_built": 33
+      }
+    },
+    "C051": {
+      "coordinates": [
+        [
+          106.71492421828161,
+          10.810112605623099
+        ],
+        [
+          106.71967904306356,
+          10.810086171974255
+        ],
+        [
+          106.71965227490989,
+          10.80538536124683
+        ],
+        [
+          106.71489752405195,
+          10.805411783134385
+        ]
+      ],
+      "width": 52,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C051_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C051_veg_to_built.png",
+      "counts": {
+        "vegetation": 229,
+        "built": 2039,
+        "water": 7,
+        "unknown_or_masked": 429,
+        "veg_to_built": 15
+      }
+    },
+    "C053": {
+      "coordinates": [
+        [
+          106.72406810114306,
+          10.810061706798587
+        ],
+        [
+          106.72882290216805,
+          10.810035132567661
+        ],
+        [
+          106.72879599185538,
+          10.805334344549516
+        ],
+        [
+          106.72404126475263,
+          10.805360906956606
+        ]
+      ],
+      "width": 52,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C053_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C053_veg_to_built.png",
+      "counts": {
+        "vegetation": 652,
+        "built": 1329,
+        "water": 95,
+        "unknown_or_masked": 628,
+        "veg_to_built": 38
+      }
+    },
+    "C054": {
+      "coordinates": [
+        [
+          106.72864002543469,
+          10.810036156005197
+        ],
+        [
+          106.73339481453395,
+          10.810009511484484
+        ],
+        [
+          106.73336783314306,
+          10.805308734866085
+        ],
+        [
+          106.72861311796515,
+          10.80533536753169
+        ]
+      ],
+      "width": 52,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C054_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C054_veg_to_built.png",
+      "counts": {
+        "vegetation": 222,
+        "built": 2030,
+        "water": 0,
+        "unknown_or_masked": 452,
+        "veg_to_built": 114
+      }
+    },
+    "C055": {
+      "coordinates": [
+        [
+          106.73321193825987,
+          10.810010537625459
+        ],
+        [
+          106.73796671540188,
+          10.80998382281579
+        ],
+        [
+          106.73793966293368,
+          10.805283057627204
+        ],
+        [
+          106.7331849597121,
+          10.805309760550491
+        ]
+      ],
+      "width": 52,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C055_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C055_veg_to_built.png",
+      "counts": {
+        "vegetation": 891,
+        "built": 1279,
+        "water": 23,
+        "unknown_or_masked": 511,
+        "veg_to_built": 51
+      }
+    },
+    "C056": {
+      "coordinates": [
+        [
+          106.73787475716739,
+          10.809893937930637
+        ],
+        [
+          106.74253808301708,
+          10.809867667466314
+        ],
+        [
+          106.74251148119693,
+          10.805257312833689
+        ],
+        [
+          106.73784822645074,
+          10.805283571834023
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C056_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C056_veg_to_built.png",
+      "counts": {
+        "vegetation": 323,
+        "built": 939,
+        "water": 930,
+        "unknown_or_masked": 409,
+        "veg_to_built": 55
+      }
+    },
+    "C058": {
+      "coordinates": [
+        [
+          106.74701852201632,
+          10.809842360984618
+        ],
+        [
+          106.7516818242564,
+          10.809815952651135
+        ],
+        [
+          106.7516550830202,
+          10.805205620585973
+        ],
+        [
+          106.74699185188187,
+          10.80523201739531
+        ]
+      ],
+      "width": 51,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C058_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C058_veg_to_built.png",
+      "counts": {
+        "vegetation": 331,
+        "built": 1316,
+        "water": 481,
+        "unknown_or_masked": 473,
+        "veg_to_built": 38
+      }
+    },
+    "C059": {
+      "coordinates": [
+        [
+          106.75149894988627,
+          10.80981698959666
+        ],
+        [
+          106.75515643375438,
+          10.809796230141327
+        ],
+        [
+          106.7551301648013,
+          10.805276305195745
+        ],
+        [
+          106.75147273560547,
+          10.805297055769632
+        ]
+      ],
+      "width": 40,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C059_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C059_veg_to_built.png",
+      "counts": {
+        "vegetation": 199,
+        "built": 1571,
+        "water": 0,
+        "unknown_or_masked": 230,
+        "veg_to_built": 45
+      }
+    },
+    "C061": {
+      "coordinates": [
+        [
+          106.71494938371909,
+          10.814542225448616
+        ],
+        [
+          106.71970427819143,
+          10.814515780716695
+        ],
+        [
+          106.71967801329107,
+          10.809905371589265
+        ],
+        [
+          106.71492319135295,
+          10.809931804785743
+        ]
+      ],
+      "width": 52,
+      "height": 51,
+      "landcover_url": "/data/classifier/cells/C061_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C061_veg_to_built.png",
+      "counts": {
+        "vegetation": 15,
+        "built": 2047,
+        "water": 276,
+        "unknown_or_masked": 314,
+        "veg_to_built": 37
+      }
+    },
+    "C063": {
+      "coordinates": [
+        [
+          106.7240934005997,
+          10.814491305283294
+        ],
+        [
+          106.72884827131337,
+          10.814464719910351
+        ],
+        [
+          106.72882238454508,
+          10.809944732812166
+        ],
+        [
+          106.72406758494199,
+          10.809971306815708
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C063_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C063_veg_to_built.png",
+      "counts": {
+        "vegetation": 501,
+        "built": 1383,
+        "water": 119,
+        "unknown_or_masked": 597,
+        "veg_to_built": 93
+      }
+    },
+    "C064": {
+      "coordinates": [
+        [
+          106.72875683160882,
+          10.814465231857195
+        ],
+        [
+          106.73342025068676,
+          10.814439088084796
+        ],
+        [
+          106.73339429554377,
+          10.809919111948213
+        ],
+        [
+          106.72873094620803,
+          10.809945244540073
+        ]
+      ],
+      "width": 51,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C064_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C064_veg_to_built.png",
+      "counts": {
+        "vegetation": 209,
+        "built": 2025,
+        "water": 0,
+        "unknown_or_masked": 316,
+        "veg_to_built": 87
+      }
+    },
+    "C066": {
+      "coordinates": [
+        [
+          106.7379007793168,
+          10.814413903296785
+        ],
+        [
+          106.74247273589326,
+          10.814388137596588
+        ],
+        [
+          106.74244664537079,
+          10.809868183249296
+        ],
+        [
+          106.73787475716739,
+          10.809893937930637
+        ]
+      ],
+      "width": 50,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C066_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C066_veg_to_built.png",
+      "counts": {
+        "vegetation": 1774,
+        "built": 52,
+        "water": 495,
+        "unknown_or_masked": 179,
+        "veg_to_built": 12
+      }
+    },
+    "C067": {
+      "coordinates": [
+        [
+          106.74238129687491,
+          10.814388653573193
+        ],
+        [
+          106.74713611969324,
+          10.814361786928252
+        ],
+        [
+          106.74710995943111,
+          10.80984184384998
+        ],
+        [
+          106.7423552077199,
+          10.809868699005241
+        ]
+      ],
+      "width": 52,
+      "height": 50,
+      "landcover_url": "/data/classifier/cells/C067_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C067_veg_to_built.png",
+      "counts": {
+        "vegetation": 2076,
+        "built": 200,
+        "water": 25,
+        "unknown_or_masked": 299,
+        "veg_to_built": 19
+      }
+    },
+    "C069": {
+      "coordinates": [
+        [
+          106.75152570042138,
+          10.814427320676108
+        ],
+        [
+          106.75518324008019,
+          10.814406552161437
+        ],
+        [
+          106.75515590826122,
+          10.809705831655963
+        ],
+        [
+          106.75149842548679,
+          10.809726590933664
+        ]
+      ],
+      "width": 40,
+      "height": 52,
+      "landcover_url": "/data/classifier/cells/C069_landcover.png",
+      "veg_to_built_url": "/data/classifier/cells/C069_veg_to_built.png",
+      "counts": {
+        "vegetation": 250,
+        "built": 880,
+        "water": 618,
+        "unknown_or_masked": 332,
+        "veg_to_built": 83
+      }
+    }
+  },
+  "semantics": {
+    "global_landcover": "Reliable Gate-B 2025 land-cover evidence across the source raster footprint.",
+    "global_historical": "Reliable 2017\u21922025 vegetation-to-built support across the jointly reliable subset. Not a core score input.",
+    "selected_cell": "Same evidence clipped to the selected planning cell for fine-grained explanation."
+  }
+}
