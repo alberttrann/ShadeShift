@@ -13,7 +13,9 @@
 
 The result is **not a citywide heat-risk model and not a tree-placement prescription**. It is an evidence-aware shortlist of 500 m planning cells within a frozen ~14.7 km² pilot area in Thủ Đức.
 
-Deployed Demo Link: https://shadeshift-web.vercel.app/
+Deployed Demo Link: [Visit ShadeShift on Vercel](https://shadeshift-web.vercel.app/)
+
+Technical Deck: [Google Slides Report](https://docs.google.com/presentation/d/1BEc2-QNeBtph45A72QTBWgVVwaHT-HerhCj8Mrd8zzk/edit?slide=id.h713b306abf83e1c1_3_35#slide=id.h713b306abf83e1c1_3_35)
 
 ![alt text](image/project_page.png)
 
