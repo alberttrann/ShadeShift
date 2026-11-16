@@ -17,6 +17,8 @@ Deployed Demo Link: [Visit ShadeShift on Vercel](https://shadeshift-web.vercel.a
 
 Technical Deck: [Google Slides Report](https://docs.google.com/presentation/d/1BEc2-QNeBtph45A72QTBWgVVwaHT-HerhCj8Mrd8zzk/edit?slide=id.h713b306abf83e1c1_3_35#slide=id.h713b306abf83e1c1_3_35)
 
+Demo Video: [Video Here](https://drive.google.com/file/d/1V09Ebv6n4PIyC0TpL0yVg9VPUO2rQvXt/view?usp=sharing)
+
 ![alt text](image/project_page.png)
 
 ![alt text](image/global_10m.png)
