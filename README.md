@@ -17,6 +17,10 @@ Deployed Demo Link: https://shadeshift-web.vercel.app/
 
 ![alt text](image/project_page.png)
 
+![alt text](image/global_10m.png)
+
+![alt text](image/global_history.png)
+
 ![alt text](image/map_view.png)
 
 ![alt text](image/selective_10m_land_view.png)
